@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="simple_goals" pkg="simple_navigation_goals" type="simple_navigation_goals_node" output="screen">
+
+  </node>
+</launch>
