@@ -14,5 +14,6 @@ echo "Hector Quadrotor build complete."
 HECTOR_ROOT=$(pwd)
 echo "source $HECTOR_ROOT/devel/setup.bash" >> ~/.bashrc
 echo "export HECTOR_ROOT=$HECTOR_ROOT" >> ~/.bashrc
+echo "export UAV_ROOT=$UAV_ROOT" >> ~/.bashrc
 
 
