@@ -10,5 +10,8 @@ git clone https://github.com/UAS-Ground/uav-command-control.git
 ```
 2. Run the install script
 ```bash
-git clone https://github.com/UAS-Ground/uav-command-control.git
+cd uav-command-control
+./install.sh
 ```
+
+3. See the [client project repository](https://github.com/UAS-Ground/front) for details about building and running this project

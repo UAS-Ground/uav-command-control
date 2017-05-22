@@ -1,10 +1,11 @@
-#1/bin/bash
+#!/bin/bash
 
 GS_PACKAGE_ROOT=$(pwd)
+echo "Set Ground System pkg root to $GS_PACKAGE_ROOT"
 mkdir safety
 cd safety
 SAFETY_DIR=$(pwd)
-if [$HOME/hector_quadrotor/src/hector_quadrotor/groundsystem_communication]
+if [ -d $HOME/hector_quadrotor/src/hector_quadrotor/groundsystem_communication ]
 	then
 		echo "groundsystem_communication dir already exists"
 else	
